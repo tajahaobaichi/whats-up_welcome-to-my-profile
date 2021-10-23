@@ -1,0 +1,260 @@
+body, html {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	margin: 0;
+	color: #d8d8d8;
+	text-align: center;
+	background-color: #262525;
+	font-size: 1vw;
+}
+
+/*** BACKGROUND IMAGES ***/
+	/* Collective setting */
+	.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .index-head, .index-bg, .dmoviebg  {
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 100%;
+	}
+	
+	/* Index Header bg img */
+	.index-head {
+		background-image: url("stangrps.png");
+		background-position: top;
+		background-image: url("stangrps.png");
+		background-size: 100%;
+		position: relative;
+		min-height: 60%;
+		opacity: 50%;
+	}
+	
+	/* index bg img */
+	.index-bg {
+		background-image: url("usctc-bg.jpg");
+	}
+	
+	/* Drama movies bg img */
+	.dmoviebg {
+		background-image: url("dmovie-bg.jpg");
+	}
+	
+	/* Enypen bg img */
+	.bgimg-1 {
+		background-image: url("enha-bg.jpg");
+	}
+	
+	/* SB19 bg img */
+	.bgimg-1-2 {
+		background-image: url("sb19-bg.jpg");
+		color: black;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	/* SF9 bg img */
+	.bgimg-2 {
+		background-image: url("sf9-bg.jpg");
+	}
+
+	/* TXT bg img */
+	.bgimg-3 {
+		background-image: url("txt-bg.jpg");
+	}
+
+	/* Other artists bg img */
+	.bgimg-4 {
+		background-image: url("interests-bg.jpg");
+	}
+
+
+/*** STICKY HEADER/TITLE FOR EACH SECTION ***/
+	/* Sticky titles */
+	.sticky {
+		position: sticky;
+		top: 0;
+		
+		margin: 0;
+		padding: 20px;
+		
+		font-weight: 400;
+		font-size: 300%;
+		color: #d8d8d8;
+		z-index: 100;
+	}
+	
+	/* Navigation bar */
+	#navbar-sticky {
+		font-weight: 200;
+		font-size: 100%;
+		background-color: #141414;
+	}
+	
+	/* More about me bar */
+	#edu-sticky {
+		background-color: #141414;
+	}
+
+	/* Drama movies bar */
+	#work-sticky {
+		background-color: #2b2933;
+	}
+
+	/* Artists I stan bar */
+	#skills-sticky{
+		border-radius: 0px 0px 50px 50px;
+		background-color: #365d40;
+		margin: auto;
+		width: 50%;
+	}
+	
+	/* Interest bar */
+	#interest-sticky {
+		background-color: #9c6c48;
+		border-radius: 0px 0px 50px 50px;
+		margin: auto;
+		width: 80%;
+	}
+	
+/*** NAVIGATION BAR ***/
+	.navbar {
+		padding: 20px;
+		
+		transition-property: background-color font-weight text-decoration;
+		transition-duration: 1s;
+		transition-delay: 0;
+	}
+
+	.navbar a {
+		text-decoration: none;
+		color: #d8d8d8;
+		padding: 20px;
+	}
+	
+	.navbar:hover{
+		background-color: rgba(255, 255, 255, 0.5);
+		font-weight: 200;
+		text-decoration: none;
+	}
+	
+	
+
+/*** CONTENTS FOR EACH SECTION ***/
+	/* INTRODUCTION */
+		/* header profpic */
+		#profpic {
+			padding-top: 50px;
+			padding-bottom: 25px;
+			height: 250px;
+			width: 250px;
+		}
+
+		/* header1 */
+		.h1-DB {
+			font-size: 300%;
+			padding: 0;
+		}
+
+		/* text */
+		.DB-span {
+			color: #d8d8d8;
+			font-weight: 200;
+			
+			background-color: rgba(0, 0, 0, 0.6);
+			border-style: solid;
+			border-color: #d8d8d8;
+			border-width: thin;
+			
+			transition-property: background-color border-color color;
+			transition-duration: 1s;
+			transition-delay: 0;
+		}
+
+		/* hover */
+		.DB-span:hover {
+			background-color: rgba(255, 255, 255, 0.5);
+			border-color: black;
+			color: black;
+		}
+
+	/* MORE ABOUT ME*/
+		/* Before you follow & GENRES */
+		.notes {
+			font-weight: 400;
+			font-size: 125%;
+			margin: 0;
+		}
+		
+	/* MAIN STANS PROFPIC */
+		/* Profpic */
+		#stanprofpic {
+			padding-top: 50px;
+			padding-bottom: 25px;
+			height: 400px;
+			width: 400px;
+		}
+		
+	/* OTHER STANS */
+		/* Main container of skill level divs */
+		.interest-container {
+			margin: auto;
+			padding: 1%;
+			padding-bottom: 0;
+			font-size: 350%;
+			font-weight: 700;
+			width: 46.5%;
+			height: 400px;
+			position: relative;
+		}
+		
+		/* All interests */
+		.interest-container div {
+			margin: 2%;
+			float: left;
+			
+			color: #d8d8d8;
+			font-weight: 400;
+			
+			background-color: rgba(0, 0, 0, 0.8);
+			border-style: solid;
+			border-color: #d8d8d8;
+			border-width: thin;
+			
+			transition-property: background-color border-color color;
+			transition-duration: 1s;
+			transition-delay: 0;
+		}
+
+		/* VISUAL CHANGE VIA HOVER, collective */
+		/* individual id's might be used for future dev */
+		.interest-container div:hover {
+			background-color: rgb(255, 176, 117, 0.5);
+			border-color: black;
+			color: black;
+		}
+
+/*** OTHERS/MISC ***/
+	/* Blank divider*/
+	#blankbar {
+		margin: 0;
+		padding: 10px;
+		background-color: #141414;
+		color: #141414;
+	}
+	.hovertip, .note-skill {
+		font-size: 50%;
+		font-style: italic;
+		font-weight: 400;
+	}
+	.note-skill {
+		font-size: 70%;
+		font-style: italic;
+		font-weight: 400;
+	}
+	/* Footer(?) */
+	#footer {
+		margin: 0;
+		padding: 15px;
+		color: #d8d8d8;
+		background-color: #141414;
+	}
