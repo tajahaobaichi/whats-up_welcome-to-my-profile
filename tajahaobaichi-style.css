@@ -47,7 +47,6 @@ body, html {
 	/* SB19 bg img */
 	.bgimg-1-2 {
 		background-image: url("sb19-bg.jpg");
-		color: black;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
